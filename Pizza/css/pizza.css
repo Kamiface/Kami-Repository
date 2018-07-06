@@ -54,9 +54,7 @@ input[type="radio"], [type="checkbox"] {
 
 } 
 
-input[type="checkbox"]:checked {
-    background: blue;
-}
+
 
 
 .flex-container {
@@ -111,7 +109,14 @@ button {
 	font-weight: bold;
 	font-size: 50px;
 	color: #543a24;
-	  background-color: rgba(255,238,185,.5)
+	background-color: rgba(255,238,185,.5)
+}
+
+button:hover {
+cursor: pointer;
+color: #ffeeb9;
+background-color: rgba(150,104,66, 0.5);
+
 }
 
 
