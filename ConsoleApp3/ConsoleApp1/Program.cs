@@ -83,7 +83,7 @@ namespace IncomeComparisonApp
 
             Task.Delay(750).Wait();
 
-            Thanks! :)
+            Console.WriteLine("Thanks! :)");
 
             Console.ReadLine();
         }
