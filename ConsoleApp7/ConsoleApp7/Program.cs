@@ -230,7 +230,7 @@ namespace ConsoleApp7
             Console.WriteLine("Hello! Please name an item in the list to search for:");
             string search2 = Console.ReadLine();
             int found3 = 1;
-            int indexdup = -1;
+            string searchdup = null;
             int index2 = 0;
 
             foreach (string list in AnotherList)
@@ -239,14 +239,14 @@ namespace ConsoleApp7
                 if (string.Equals(list, search2, StringComparison.CurrentCultureIgnoreCase))
                 {
 
-                    if (index2 == indexdup)
+                    if (search2 == searchdup)
                     {
-                        Console.WriteLine("Duplicate Entry! " + search2 + " has already appeared in the list at index " + index2 + "!");
+                        Console.WriteLine("Duplicate Entry! " + search2 + ", located at index " + index2 + ", has already appeared in the list at index " + index1 + "!");
                     }
                     else
                         Console.WriteLine("You searched for " + search2 + ", which is at the index " + index2 + " of this list!");
                     found3 = 2;
-                    indexdup = index2;
+                    searchdup = search2;
 
                 };
                 index2 = index2 + 1;
