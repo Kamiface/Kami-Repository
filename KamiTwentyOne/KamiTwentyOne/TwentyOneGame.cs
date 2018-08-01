@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace KamiTwentyOne
 {
-    class TwentyOneGame : Game
+    public class TwentyOneGame : Game
     {
-        public void Play()
+        public override void Play()
         {
             throw new NotImplementedException();
         }
+        public override void ListPlayers()
+        {
+            Console.WriteLine("TwentyOne Players");
+            base.ListPlayers();
+        }
+
     }
 }
