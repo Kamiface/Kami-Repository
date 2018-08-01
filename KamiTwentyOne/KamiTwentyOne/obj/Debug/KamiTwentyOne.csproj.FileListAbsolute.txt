@@ -1,0 +1,7 @@
+C:\Users\Kami\source\repos\KamiTwentyOne\KamiTwentyOne\bin\Debug\KamiTwentyOne.exe.config
+C:\Users\Kami\source\repos\KamiTwentyOne\KamiTwentyOne\bin\Debug\KamiTwentyOne.exe
+C:\Users\Kami\source\repos\KamiTwentyOne\KamiTwentyOne\bin\Debug\KamiTwentyOne.pdb
+C:\Users\Kami\source\repos\KamiTwentyOne\KamiTwentyOne\obj\Debug\KamiTwentyOne.csprojAssemblyReference.cache
+C:\Users\Kami\source\repos\KamiTwentyOne\KamiTwentyOne\obj\Debug\KamiTwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\Kami\source\repos\KamiTwentyOne\KamiTwentyOne\obj\Debug\KamiTwentyOne.exe
+C:\Users\Kami\source\repos\KamiTwentyOne\KamiTwentyOne\obj\Debug\KamiTwentyOne.pdb
