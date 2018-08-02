@@ -12,12 +12,47 @@ namespace ConsoleApp4
         // 1. Overload the "==" operator so it checks if two Employee objects are equal by comparing their Id property.
 
 
-        public int ID { get; set; }
+        public int Id { get; set; }
 
-        public static Employee operator== (Employee Id)
+        public static bool operator ==(Employee employee1, Employee employee2)
         {
-            bool IdEqual = 
+
+            // I also tried: return employee1.Id == employee2.Id
+
+            bool IdCheck;
+            if (employee1.Id == employee2.Id)
+            {
+                IdCheck = true;
+            }
+            else
+            {
+                IdCheck = false;
+            }
+            return IdCheck;
         }
+
+
+
+
+
+        public static bool operator !=(Employee employee1, Employee employee2)
+        {
+            // This is required
+
+            bool IdCheckNeg;
+            if (employee1.Id != employee2.Id)
+            {
+                IdCheckNeg = true;
+            }
+            else
+            {
+                IdCheckNeg = false;
+            }
+            return IdCheckNeg;
+
+        }
+
+
 
 
         public override void SayName()
