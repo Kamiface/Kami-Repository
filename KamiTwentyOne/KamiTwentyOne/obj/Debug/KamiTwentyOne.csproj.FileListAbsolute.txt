@@ -12,3 +12,10 @@ C:\Users\Student\Documents\GitHub\Kami-Repository\KamiTwentyOne\KamiTwentyOne\ob
 C:\Users\Student\Documents\GitHub\Kami-Repository\KamiTwentyOne\KamiTwentyOne\obj\Debug\KamiTwentyOne.csproj.CoreCompileInputs.cache
 C:\Users\Student\Documents\GitHub\Kami-Repository\KamiTwentyOne\KamiTwentyOne\obj\Debug\KamiTwentyOne.exe
 C:\Users\Student\Documents\GitHub\Kami-Repository\KamiTwentyOne\KamiTwentyOne\obj\Debug\KamiTwentyOne.pdb
+C:\Users\Student\source\repos\KamiTwentyOne\KamiTwentyOne\bin\Debug\KamiTwentyOne.exe.config
+C:\Users\Student\source\repos\KamiTwentyOne\KamiTwentyOne\bin\Debug\KamiTwentyOne.exe
+C:\Users\Student\source\repos\KamiTwentyOne\KamiTwentyOne\bin\Debug\KamiTwentyOne.pdb
+C:\Users\Student\source\repos\KamiTwentyOne\KamiTwentyOne\obj\Debug\KamiTwentyOne.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\KamiTwentyOne\KamiTwentyOne\obj\Debug\KamiTwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\KamiTwentyOne\KamiTwentyOne\obj\Debug\KamiTwentyOne.exe
+C:\Users\Student\source\repos\KamiTwentyOne\KamiTwentyOne\obj\Debug\KamiTwentyOne.pdb
