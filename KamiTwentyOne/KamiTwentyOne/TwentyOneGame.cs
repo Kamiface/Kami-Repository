@@ -65,6 +65,7 @@ namespace KamiTwentyOne
                         foreach (KeyValuePair<Player, int> entry in Bets)
                         {
                             Dealer.Balance += entry.Value;
+                            
                         }
                         return;
                     }
@@ -132,6 +133,7 @@ namespace KamiTwentyOne
                     Console.WriteLine("{0} won {1}!", entry.Key.Name, entry.Value);
                     Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);
                     Dealer.Balance -= entry.Value;
+
                 }
                 return;
             }
