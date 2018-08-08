@@ -21,6 +21,7 @@ namespace KamiTwentyOne
             Console.WriteLine(card);
             using (StreamWriter file = new StreamWriter(@"K:\Logs\log.txt", true))
             {
+                file.WriteLine(DateTime.Now);
                 file.WriteLine(card);
             }
             Deck.Cards.RemoveAt(0);
