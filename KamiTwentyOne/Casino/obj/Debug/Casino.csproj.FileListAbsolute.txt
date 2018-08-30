@@ -1,0 +1,6 @@
+C:\Users\Kami\source\repos\KamiTwentyOne\Casino\bin\Debug\Casino.dll
+C:\Users\Kami\source\repos\KamiTwentyOne\Casino\bin\Debug\Casino.pdb
+C:\Users\Kami\source\repos\KamiTwentyOne\Casino\obj\Debug\Casino.csprojAssemblyReference.cache
+C:\Users\Kami\source\repos\KamiTwentyOne\Casino\obj\Debug\Casino.csproj.CoreCompileInputs.cache
+C:\Users\Kami\source\repos\KamiTwentyOne\Casino\obj\Debug\Casino.dll
+C:\Users\Kami\source\repos\KamiTwentyOne\Casino\obj\Debug\Casino.pdb
