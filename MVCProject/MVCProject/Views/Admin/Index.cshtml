@@ -1,0 +1,41 @@
+﻿
+@using MVCProject.ViewModels
+@model List<QuoteVm>
+
+<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+        <div class="card-header text-center">
+            <h5 class="m-0">Admin Page</h5>
+            <h5 class="m-0">Kami Insurance Quotes!</h5>
+        </div>
+        <div class="card-body">
+
+            @foreach (var vquote in Model)
+            {
+                using (Html.BeginForm("Index", "Admin", FormMethod.Post))
+                {
+                    <input type="hidden" name="Id" value="@vquote.Id" />
+                    <div class="row mb-3">
+                        <div class="col">
+                            <h6>Monthly Quote:</h6>
+                            $@vquote.Total
+                        </div>
+                        <div class="col">
+                            <h6>First Name:</h6>
+                            @vquote.FirstName
+                        </div>
+                        <div class="col">
+                            <h6>Last Name:</h6>
+                            @vquote.LastName
+                        </div>
+                        <div class="col">
+                            <h6>Email:</h6>
+                            @vquote.EmailAddress
+                        </div>
+
+                    </div>
+                    }
+                }
+            </div>
+    </div>
+</div>
