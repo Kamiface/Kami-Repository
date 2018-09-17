@@ -21,18 +21,24 @@ namespace MVCProject.Controllers
 
             if (string.IsNullOrEmpty(FirstName) || string.IsNullOrEmpty(LastName) || string.IsNullOrEmpty(EmailAddress))
             {
-                return View("~/Views/Shared/Error.cshtml");
+                throw new ArgumentException();
             }
-            
-            
+
+            try
+            {
+
                 QuoteLogic quoteLogic = new QuoteLogic(FirstName, LastName, EmailAddress, DateOfBirth, CarModelYear, CarMake, CarModel, SpeedingTickets, DUICheck, CoverageType);
                 quoteLogic.DBLogic(FirstName, LastName, EmailAddress, DateOfBirth, CarModelYear, CarMake, CarModel, SpeedingTickets, DUICheck, CoverageType);
+                return Success(FirstName, LastName, quoteLogic.Total);
+            }
+            catch (ArgumentException ex)
+            {
+                return View("~/Views/Shared/Error.cshtml");
+            }
 
                 
 
-                
-
-            return Success(FirstName, LastName, quoteLogic.Total);
+           
 
         }
 

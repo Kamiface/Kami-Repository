@@ -1,0 +1,25 @@
+
+
+.modal-content
+{
+	background: rgba(255, 255, 255, .7);	
+	line-height: 20px;
+	font-size: 20px;
+}
+
+.form-control
+{
+	font-size: 20px;
+}
+
+.rotated
+{
+	-moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+
+    transform-origin: top left;  
+}
+
+
+
