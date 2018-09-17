@@ -1,0 +1,6 @@
+K:\Users\Kami\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+K:\Users\Kami\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+K:\Users\Kami\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+K:\Users\Kami\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+K:\Users\Kami\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+K:\Users\Kami\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
